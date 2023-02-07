@@ -1,6 +1,5 @@
 # Overview
 
-# webcrypto.dev
 https://webcrypto.dev is a collection of applied cryptography and x.509 certificate related libraries by Peculiar Ventures, a technology company dedicated to making the process of building modern, usable, and secure applications and services easy.
 
 With years of experience in this field, we have created a suite of popular libraries that make it easier for developers to integrate these technologies into their projects. These libraries are used by companies of all sizes, from large enterprises to small startups.
