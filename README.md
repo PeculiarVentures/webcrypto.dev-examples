@@ -4,7 +4,7 @@ https://webcrypto.dev is a collection of applied cryptography and x.509 certific
 
 With years of experience in this field, we have created a suite of popular libraries that make it easier for developers to integrate these technologies into their projects. These libraries are used by companies of all sizes, from large enterprises to small startups.
 
-Some of the well-known companies that use our libraries include Microsoft, Google, CloudFlare, Facebook, WhatsApp, and many more. Our libraries have been designed to meet the demands of these companies.
+Some of the well-known companies that use our libraries include Microsoft, Google, CloudFlare, Facebook, WhatsApp, and many more. 
 
 This repository contains examples for some of our most popular libraries. Whether you're a seasoned developer or just starting out, you'll find that our libraries likley have everything you need to quickly integrate these technologies into your own projects.
 
