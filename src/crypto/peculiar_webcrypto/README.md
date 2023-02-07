@@ -1,15 +1,16 @@
 # Overview
 [@peculiar/webcrypto](https://github.com/PeculiarVentures/webcrypto) is a WebCrypto polyfill based on the NodeJS native crypto implementation that adds support for several cryptographic algorithms not included in the WebCrypto standard, enabling interoperability with existing systems that use those algorithms.
 
+
 #### Standard WebCrypto mechanisms
 | Sample             |	Description                              |
 |---------------------|------------------------------------------|
-| [AES-CBC key generation and data encryption](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/aes_cbc.ts)	| Uses the @peculiar/webcrypto library to perform AES encryption and decryption. |
-| [Create SHA message digests](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/aes_cbc.ts)	| Uses the @peculiar/webcrypto to compute message digests using SHA-1, SHA-256, SHA-384, and SHA-512. |
-|[RSASSA-PKCS1-v1_5 key generation and signing](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/rsa_ssa.ts) | Uses the @peculiar/webcrypto library to generate RSA key pairs then signs and verifies.|
-|[RSA key generation and secret key wrapping](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/rsa_oaep.ts)|Uses the @peculiar/webcrypto to generate RSA and AES keys, wrap and unwrap a secret key, and export a public key.|
-|[ECDSA key generation and signing](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/ecdsa.ts)|The code uses the @peculiar/webcrypto library to generate and export a public key, sign data with a private key, and verify the signature using Elliptic Curve Digital Signature Algorithm (ECDSA) with SHA-256.|
-|[ECDH key generation and key deriving](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/ecdh.ts)|This code uses the @peculiar/webcrypto library to demonstrate a key agreement algorithm based on Elliptic Curve Diffie-Hellman (ECDH) for secure key exchange between two parties.|
+| [AES-CBC key generation and data encryption](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/aes_cbc.ts)	| Demonstrates how to perform AES encryption and decryption. |
+| [Create SHA message digests](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/aes_cbc.ts)	| Demonstrates how to compute message digests using SHA-1, SHA-256, SHA-384, and SHA-512. |
+|[RSASSA-PKCS1-v1_5 key generation and signing](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/rsa_ssa.ts) | Demonstrates how to generate RSA key pairs then signs and verifies.|
+|[RSA key generation and secret key wrapping](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/rsa_oaep.ts)|Demonstrates how to generate RSA and AES keys, wrap and unwrap a secret key, and export a public key.|
+|[ECDSA key generation and signing](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/ecdsa.ts)|Demonstrates how to  generate and export a public key, sign data with a private key, and verify the signature using Elliptic Curve Digital Signature Algorithm (ECDSA) with SHA-256.|
+|[ECDH key generation and key deriving](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/ecdh.ts)|Demonstrates how to do key agreement based on Elliptic Curve Diffie-Hellman (ECDH) for secure key exchange between two parties.|
 
 #### Non-Standard WebCrypto mechanisms
 
