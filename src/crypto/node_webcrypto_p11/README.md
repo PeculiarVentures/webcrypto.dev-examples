@@ -1,9 +1,9 @@
-# node-webcrypto-p11
+# Overview
+[node-webcrypto-p11](https://github.com/PeculiarVentures/node-webcrypto-p11) Provides a binding between the PKCS#11 API and the WebCrypto API, making it easy to add support for PKCS#11 to any application built around the WebCrypto API.
 
 ![npm](https://img.shields.io/npm/dw/node-webcrypto-p11)
 ![npm (scoped)](https://img.shields.io/npm/v/node-webcrypto-p11)
 
-Source: https://github.com/PeculiarVentures/node-webcrypto-p11
 
 ## Examples
 
