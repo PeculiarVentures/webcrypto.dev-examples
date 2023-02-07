@@ -1,5 +1,5 @@
 # Overview
-[@peculiar/webcrypto](https://github.com/PeculiarVentures/webcrypto) is a polyfill of the NodeJS native crypto implementation that adds support for several cryptographic algorithms not included in the WebCrypto standard, enabling interoperability with existing systems that use those algorithms.
+[@peculiar/webcrypto](https://github.com/PeculiarVentures/webcrypto) is a WebCrypto polyfill based on the NodeJS native crypto implementation that adds support for several cryptographic algorithms not included in the WebCrypto standard, enabling interoperability with existing systems that use those algorithms.
 
 #### Standard WebCrypto mechanisms
 | Sample             |	Description                              |
