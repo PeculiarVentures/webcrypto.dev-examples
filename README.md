@@ -18,7 +18,7 @@ The cryptographic engines are the backbone of applications that utilize these te
 
 | Library             |	Description                              |
 |---------------------|------------------------------------------|
-| [@peculiar/webcrypto](src/crypto/peculiar_webcrypto/README.md) | A polyfill WebCrypto based on the NodeJS native crypto implementation that adds support for several cryptographic algorithms not included in the WebCrypto standard, enabling interoperability with existing systems that use those algorithms. |
+| [@peculiar/webcrypto](src/crypto/peculiar_webcrypto/README.md) | A WebCrypto polyfill based on the NodeJS native crypto implementation that adds support for several cryptographic algorithms not included in the WebCrypto standard, enabling interoperability with existing systems that use those algorithms. |
 | [webcrypto-liner](src/crypto/webcrypto_liner/README.md)  | A polyfill for the WebCrypto API that can be used when browsers do not support the API, allowing WebCrypto applications to work even if native implementations are not available. It also provides support for some algorithms that are needed for interoperability with existing systems that are not supported by the WebCrypto standard. |
 | [node-webcrypto-p11](src/crypto/node_webcrypto_p11/README.md) | Provides a binding between the PKCS#11 API and the WebCrypto API, making it easy to add support for PKCS#11 to any application built around the WebCrypto API. |
 | @pkcs11js | Typescript/Javascript binding for PKCS#11, enables Node applications to interact with PKCS#11 implementations such as provided by smart cards and hardware security modules. |
