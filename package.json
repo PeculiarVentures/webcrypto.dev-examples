@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/PeculiarVentures/lib-examples#readme",
   "dependencies": {
-    "@peculiar/webcrypto": "^1.4.1"
+    "@peculiar/webcrypto": "^1.4.1",
+    "node-webcrypto-p11": "^2.6.0"
   },
   "devDependencies": {
     "@types/node": "^18.13.0",
