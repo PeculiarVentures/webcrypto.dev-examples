@@ -4,6 +4,8 @@
 ![npm](https://img.shields.io/npm/dw/@peculiar/webcrypto)
 ![npm (scoped)](https://img.shields.io/npm/v/@peculiar/webcrypto)
 
+### Samples
+
 #### Standard WebCrypto mechanisms
 | Sample             |	Description                              |
 |---------------------|------------------------------------------|
