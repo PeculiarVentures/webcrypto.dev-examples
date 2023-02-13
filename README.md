@@ -23,7 +23,7 @@ The cryptographic engines are the backbone of applications that utilize these te
 | [node-webcrypto-p11](src/crypto/node_webcrypto_p11/README.md) | Provides a binding between the PKCS#11 API and the WebCrypto API, making it easy to add support for PKCS#11 to any application built around the WebCrypto API. |
 | [pkcs11js](src/crypto/pkcs11js/README.md) | Typescript/Javascript binding for PKCS#11, enables Node applications to interact with PKCS#11 implementations such as provided by smart cards and hardware security modules. |
 | @pvpkcs11 | PKCS#11 implementation that makes it possible to access the operating system and browser implementations of cryptography and certificate stores from a single API, making it easy to build cross-platform applications that use these technologies. |
-| [fortify](src/crypto/fortify/README.md) | Fortify enables web applications to use smart cards, local certificate stores and do certificate enrollment. |
+| [Fortify](src/crypto/fortify/README.md) | Fortify enables web applications to use smart cards, local certificate stores and do certificate enrollment. |
 
 
 #### Public Key Infrastructure (PKI)
@@ -54,21 +54,30 @@ Our PDF libraries provide a convenient and easy-to-use solution for creating, ma
 |---------------------|------------------------------------------|
 | @peculiarventures/pdf | A Typescript library for creating and working with a PDF files focused on signing, and encryption scenarios. |
 
-# Running The Examples
+## Instruction for Running Examples
 
-You can use your Terminal to run any examples.
+### Prerequisites
 
-First, you need to install all required dependencies.
+Before you run the examples, you need to install the following:
 
-```
+1. [Yarn](https://yarnpkg.com/)
+
+### Steps
+
+1. Open the terminal and navigate to the directory where you have cloned the repository
+2. Install the dependencies by running the following command:
+
+```bash
 yarn
 ```
 
-Use this command to run an example.
+3. Run the desired example script using the following command:
 
-```
+```bash
 npx ts-node ./path/to/example.ts
 ```
+
+Note: Replace `./path/to/example.ts` with the actual path to the example file that you want to run.
 
 **Examples:**
 ```
