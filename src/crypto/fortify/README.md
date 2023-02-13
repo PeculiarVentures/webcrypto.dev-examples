@@ -1,5 +1,5 @@
 # Overview
-[fortify](https://github.com/PeculiarVentures/fortify) enables web applications to use smart cards, local certificate stores and do certificate enrollment.
+[Fortify](https://github.com/PeculiarVentures/fortify) enables web applications to use smart cards, local certificate stores and do certificate enrollment.
 
 In order to run these examples, you need to download and install the Fortify application from the website https://fortifyapp.com/.
 
