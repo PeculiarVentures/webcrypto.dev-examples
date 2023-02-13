@@ -58,6 +58,16 @@
     asn1js "^3.0.5"
     tslib "^2.4.0"
 
+"@peculiar/asn1-ocsp@^2.3.4":
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@peculiar/asn1-ocsp/-/asn1-ocsp-2.3.4.tgz#b86b5242c53a5620258b75fbdf63217828c301cf"
+  integrity sha512-bnkvdw/qi70cz5sl9UfzAKEKAdsMCqHbzEQ/qb4k12TKwFglpgRSQsTu9ixN2YYMTI9fwjptL0QiPCedSIxptw==
+  dependencies:
+    "@peculiar/asn1-schema" "^2.3.3"
+    "@peculiar/asn1-x509" "^2.3.4"
+    asn1js "^3.0.5"
+    tslib "^2.4.0"
+
 "@peculiar/asn1-pfx@^2.3.4":
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/@peculiar/asn1-pfx/-/asn1-pfx-2.3.4.tgz#137a3ea3a8bd0a674a9b2606a7cae1c846c3ff9a"
@@ -163,7 +173,7 @@
     tslib "^2.4.1"
     webcrypto-core "^1.7.4"
 
-"@peculiar/x509@^1.8.1":
+"@peculiar/x509@^1.8.1", "@peculiar/x509@^1.9.3":
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/@peculiar/x509/-/x509-1.9.3.tgz#a61e3dcc54ec568f6ba9325fb751a5fb01db15a6"
   integrity sha512-rv1TrPi85jOtBJ7Xmqx08p3QPIE2avd5CWgtiwOIAbhV3hoUCLlGIUtXn9CuShfFBCjGy8EnZRQ6YbNFaDL8vw==
