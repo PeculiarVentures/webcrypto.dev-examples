@@ -23,6 +23,7 @@ The cryptographic engines are the backbone of applications that utilize these te
 | [node-webcrypto-p11](src/crypto/node_webcrypto_p11/README.md) | Provides a binding between the PKCS#11 API and the WebCrypto API, making it easy to add support for PKCS#11 to any application built around the WebCrypto API. |
 | [pkcs11js](src/crypto/pkcs11js/README.md) | Typescript/Javascript binding for PKCS#11, enables Node applications to interact with PKCS#11 implementations such as provided by smart cards and hardware security modules. |
 | @pvpkcs11 | PKCS#11 implementation that makes it possible to access the operating system and browser implementations of cryptography and certificate stores from a single API, making it easy to build cross-platform applications that use these technologies. |
+| [fortify](src/crypto/fortify/README.md) | Fortify enables web applications to use smart cards, local certificate stores and do certificate enrollment. |
 
 
 #### Public Key Infrastructure (PKI)
