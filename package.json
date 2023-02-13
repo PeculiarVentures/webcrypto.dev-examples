@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/PeculiarVentures/lib-examples#readme",
   "dependencies": {
+    "@peculiar/asn1-schema": "^2.3.3",
+    "@peculiar/asn1-x509": "^2.3.4",
+    "@peculiar/asn1-x509-microsoft": "^2.3.4",
     "@peculiar/webcrypto": "^1.4.1",
     "asn1js": "^3.0.5",
     "node-webcrypto-p11": "^2.6.0",
