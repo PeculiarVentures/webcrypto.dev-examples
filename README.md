@@ -32,9 +32,9 @@ The ASN.1 and X.509 libraries are essential building blocks for many security-re
 
 | Library             |	Description                              |
 |---------------------|------------------------------------------|
-| [asn1js](src/pki/asn1js/README.md)	| A low level Typescript library for parsing and serializing ASN.1 data structures.|
+| [asn1js](src/pki/asn1js/README.md)	| A low level Typescript library for parsing and serializing ASN.1 data structures. Chances are you should be using [@peculiar/asn1](src/pki/peculiar_asn1/README.md) instead.|
 | [@peculiar/asn1](src/pki/peculiar_asn1/README.md)	| An object-oriented Typescript library that provides support for parsing and serializing ASN.1 data structures. | 
-| pkijs	| A low level Typescript library that provides support for working with X.509 certificates and related data structures. |
+| pkijs	| A low level Typescript library that provides support for working with X.509 certificates and related data structures. Chances are you should be using [@peculiar/x509](src/pki/peculiar_x509/README.md) instead. |
 | [@peculiar/x509](src/pki/peculiar_x509/README.md) | An object-oriented Typescript library that provides a higher-level API for working with X.509 certificates and related data structures. |
 
 
