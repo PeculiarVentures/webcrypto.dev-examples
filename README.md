@@ -54,6 +54,14 @@ Our PDF libraries provide a convenient and easy-to-use solution for creating, ma
 |---------------------|------------------------------------------|
 | @peculiarventures/pdf | A Typescript library for creating and working with a PDF files focused on signing, and encryption scenarios. |
 
+# End-To-End Encryption Protocols
+
+The end-to-end encryption protocols are essential building blocks for secure communication between parties. To simplify the process of establishing secure communication, we have created libraries specifically designed for key agreement. These libraries simplify the integration process, making it convenient and effortless for you to add robust end-to-end encryption capabilities to your projects.
+
+| Library             |	Description                              |
+|---------------------|------------------------------------------|
+| [2key&#x2011;ratchet](src/e2e/2key_ratchet/README.md) | A library for secure communication between two parties over an unreliable network, based on the Double Ratchet protocol used in Signal. It provides forward secrecy and protects against message replay attacks. |
+
 ## Instruction for Running Examples
 
 ### Prerequisites
