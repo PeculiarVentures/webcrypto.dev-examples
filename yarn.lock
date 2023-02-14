@@ -400,6 +400,11 @@ brorand@^1.0.1:
   resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
   integrity sha512-cKV8tMCEpQs4hK/ik71d6LrPOnpkpGBR0wzxqr68g2m/LB2GxVYQroAjMJZRVM1Y4BCjCKc3vAamxSzOY2RP+w==
 
+bytestreamjs@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/bytestreamjs/-/bytestreamjs-2.0.1.tgz#a32947c7ce389a6fa11a09a9a563d0a45889535e"
+  integrity sha512-U1Z/ob71V/bXfVABvNr/Kumf5VyeQRBEm6Txb0PQ6S7V5GpBM3w4Cbqz/xPDicR5tN0uvDifng8C+5qECeGwyQ==
+
 combined-stream@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
@@ -561,6 +566,17 @@ pkcs11js@^1.3.0, pkcs11js@^1.3.1:
   integrity sha512-eo7fTeQwYGzX1pFmRaf4ji/WcDW2XKpwqylOwzutsjNWECv6G9PzDHj3Yj5dX9EW/fydMnJG8xvWj/btnQT9TA==
   dependencies:
     nan "^2.15.0"
+
+pkijs@^3.0.13:
+  version "3.0.13"
+  resolved "https://registry.yarnpkg.com/pkijs/-/pkijs-3.0.13.tgz#d33c7d9d6f1dc20d8f588c357d725d57e1245638"
+  integrity sha512-a4uShsMDMZf0UpiNeedpARIN2TChjFn4xze7HE+Dm3lsX+o2MHcSm8Lf2Tt+f1le8FHbBevdWlcLO5boSW/9NQ==
+  dependencies:
+    asn1js "^3.0.5"
+    bytestreamjs "^2.0.0"
+    pvtsutils "^1.3.2"
+    pvutils "^1.1.3"
+    tslib "^2.4.0"
 
 protobufjs@^6.10.1:
   version "6.11.3"
