@@ -7,7 +7,8 @@
 ### Samples
 
 #### Standard WebCrypto mechanisms
-| Sample             |	Description                              |
+
+| Sample              | Description                              |
 |---------------------|------------------------------------------|
 | [AES-CBC key generation and data encryption](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/webcrypto_liner/aes_cbc.ts)	|  Demonstrates how to perform AES encryption and decryption. |
 | [Create SHA message digests](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/webcrypto_liner/sha.ts)	|  Demonstrates how to compute message digests using SHA-1, SHA-256, SHA-384, and SHA-512. |

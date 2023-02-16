@@ -7,6 +7,7 @@
 ### Samples
 
 #### Standard WebCrypto mechanisms
+
 | Sample             |	Description                              |
 |---------------------|------------------------------------------|
 | [AES-CBC key generation and data encryption](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/crypto/peculiar_webcrypto/aes_cbc.ts)	| Demonstrates how to perform AES encryption and decryption. |
