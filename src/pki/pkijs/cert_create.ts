@@ -42,8 +42,8 @@ async function main() {
   // "KeyUsage" extension
   const bitArray = new ArrayBuffer(1);
   const bitView = new Uint8Array(bitArray);
-  bitView[0] |= 0x01; // Key usage "digitalSignature" flag
-  bitView[0] |= 0x02; // Key usage "nonRepudiation" flag
+  bitView[0] |= 1 << 7; // Key usage "digitalSignature" flag
+  bitView[0] |= 1 << 8; // Key usage "nonRepudiation" flag
   const keyUsage = new asn1js.BitString({ valueHex: bitArray });
   certificate.extensions.push(new pkijs.Extension({
     extnID: "2.5.29.15",
