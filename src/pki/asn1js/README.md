@@ -9,6 +9,6 @@
 
 | Sample             |	Description                              |
 |--------------------|-------------------------------------------|
-| [Reads and edits an ASN.1 structure](edit.ts) | Demonstrates how to read a raw ASN.1 encoded buffer, modify it, and re-encoded back into a raw ASN.1 buffer. |
-| [Creates and encodes an ASN.1 structure](create.ts) | Demonstrates how to to create and encode an ASN.1 structure of Microsoft Certificate Template. |
-| [Creates ASN.1 schema for structure validation](create.ts) | Demonstrates how to to create and validate an ASN.1 structure of Microsoft Certificate Template. |
+| [Reads and edits an ASN.1 structure](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/asn1js/edit.ts) | Demonstrates how to read a raw ASN.1 encoded buffer, modify it, and re-encoded back into a raw ASN.1 buffer. |
+| [Creates and encodes an ASN.1 structure](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/asn1js/create.ts) | Demonstrates how to to create and encode an ASN.1 structure of Microsoft Certificate Template. |
+| [Creates ASN.1 schema for structure validation](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/asn1js/schema.ts) | Demonstrates how to to create and validate an ASN.1 structure of Microsoft Certificate Template. |

@@ -9,8 +9,8 @@
 
 | Sample             |	Description                              |
 |--------------------|-------------------------------------------|
-| [X509 certificate creation](create_cert.ts) | Demonstrates how to generate a self-signed X.509 certificate using RSA encryption, and display the PEM encoded certificate and decoded certificate information. |
-| [X509 certificate reading](read_cert.ts) | Demonstrates how to parse and retrieve information from a PEM-encoded X.509 certificate. |
-| [PKCS10 certificate request creation](create_cert_req.ts) | Demonstrates how to generate an ECDSA key, create a PKCS10 certificate request, and output it in both PEM and ASN.1 encoding formats. |
-| [Certificate Revocation List creation](create_crl.ts) | Demonstrates how to generate an ECDSA key, create a certificate revocation list (CRL) using that key, and output the CRL in PEM format and its ASN.1 encoding. |
-| [X509 certificate chain building](chain.ts) | Demonstrates how to build certificate chain using a certificate list retrieved from the CMS (Cryptographic Message Syntax) structure, and output the chain in PEM format. |
+| [X509 certificate creation](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/peculiar_x509/create_cert.ts) | Demonstrates how to generate a self-signed X.509 certificate using RSA encryption, and display the PEM encoded certificate and decoded certificate information. |
+| [X509 certificate reading](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/peculiar_x509/read_cert.ts) | Demonstrates how to parse and retrieve information from a PEM-encoded X.509 certificate. |
+| [PKCS10 certificate request creation](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/peculiar_x509/create_cert_req.ts) | Demonstrates how to generate an ECDSA key, create a PKCS10 certificate request, and output it in both PEM and ASN.1 encoding formats. |
+| [Certificate Revocation List creation](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/peculiar_x509/create_crl.ts) | Demonstrates how to generate an ECDSA key, create a certificate revocation list (CRL) using that key, and output the CRL in PEM format and its ASN.1 encoding. |
+| [X509 certificate chain building](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/peculiar_x509/chain.ts) | Demonstrates how to build certificate chain using a certificate list retrieved from the CMS (Cryptographic Message Syntax) structure, and output the chain in PEM format. |

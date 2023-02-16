@@ -9,4 +9,4 @@
 
 | Sample             |	Description                              |
 |--------------------|-------------------------------------------|
-| [Messaging](message.ts) | Demonstrates how to create an encrypted messaging channel using 2key-ratchet. |
+| [Messaging](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/e2e/2key_ratchet/message.ts) | Demonstrates how to create an encrypted messaging channel using 2key-ratchet. |
