@@ -19,3 +19,5 @@
  | [CMS Signed Data, sign with signedAttributes, detached](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/pkijs/signed_data_sign_detached.ts) | Demonstrates how to create a CMS SignedData object with a detached signature, and including signed attributes in the signature. |
  | [Verifying a Signature of CMS SignedData](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/pkijs/signed_data_verify.ts) | Demonstrates how to verify a CMS SignedData |
  | [Verifying a Detached Signature of CMS SignedData](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pki/pkijs/signed_data_verify_detached.ts) | Demonstrates how to verify a CMS SignedData with a detached signature |
+ | [Encrypt data using RSA private key](enveloped_data_rsa_encrypt.ts) |  |
+ | [Decrypt data using RSA public key](enveloped_data_rsa_decrypt.ts) |  |
