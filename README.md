@@ -44,6 +44,7 @@ The XML libraries are critical components for many security-related applications
 | Library             |	Description                              |
 |---------------------|------------------------------------------|
 | [xmldsigjs](src/xml/xmldsig/README.md) | A Typescript library that provides support for signing and validating XML data structures using the XML Digital Signature standard. |
+| [xadesjs](src/xml/xades/README.md) | A Typescript library that provides support for signing and validating XML data structures using the XAdES (XML Advanced Electronic Signatures) standard. |
 
 #### Portable Document Formant (PDF)
 Our PDF libraries provide a convenient and easy-to-use solution for creating, manipulating, and working with PDF files, with a focus on signing and encryption scenarios. These libraries simplify the integration process and allow you to add PDF handling capabilities to your projects with ease.
