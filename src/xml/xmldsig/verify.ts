@@ -1,4 +1,3 @@
-import * as assert from "node:assert";
 import { Crypto } from "@peculiar/webcrypto";
 import * as xmldsig from "xmldsigjs";
 
