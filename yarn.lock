@@ -356,6 +356,11 @@
     tslib "^2.4.0"
     tsprotobuf "^1.0.17"
 
+"@xmldom/xmldom@^0.8.2":
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.6.tgz#8a1524eb5bd5e965c1e3735476f0262469f71440"
+  integrity sha512-uRjjusqpoqfmRkTaNuLJ2VohVr67Q5YwDATW3VU7PfzTj6IRaihGrYI7zckGZjxQPBIp63nfvJbM+Yu5ICh0Bg==
+
 acorn-walk@^8.1.1:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
@@ -567,6 +572,17 @@ pkcs11js@^1.3.0, pkcs11js@^1.3.1:
   dependencies:
     nan "^2.15.0"
 
+pkijs@^3.0.10:
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/pkijs/-/pkijs-3.0.14.tgz#92571f61122fd1e0ccdbc328b6efab9467b0bc30"
+  integrity sha512-Fi9++44BaOY0VcOEJql27D/HzHIeMU9R48XclfL98Cp8Wh/gGfPbuS1RUwReHQHRIUfzW32eoNO1izxoBMZi6w==
+  dependencies:
+    asn1js "^3.0.5"
+    bytestreamjs "^2.0.0"
+    pvtsutils "^1.3.2"
+    pvutils "^1.1.3"
+    tslib "^2.4.0"
+
 pkijs@^3.0.13:
   version "3.0.13"
   resolved "https://registry.yarnpkg.com/pkijs/-/pkijs-3.0.13.tgz#d33c7d9d6f1dc20d8f588c357d725d57e1245638"
@@ -720,6 +736,46 @@ ws@^8.8.0:
   version "8.12.1"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.12.1.tgz#c51e583d79140b5e42e39be48c934131942d4a8f"
   integrity sha512-1qo+M9Ba+xNhPB+YTWUlK6M17brTut5EXbcBaMRN5pH5dFrXz7lzz1ChFSUq3bOUl8yEvSenhHmYUNJxFzdJew==
+
+xadesjs@^2.4.4:
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/xadesjs/-/xadesjs-2.4.4.tgz#d8c274eeda3f8141f73a1a588442e9285e6eb9f3"
+  integrity sha512-E4Bgm+XofzXKwDCszoThj2FHLmzDdmBt/pyFKPpvbdnxeU6r/LoI+PKR6WBPwOiVa/S2jBAOgLPyHdZKgdsPBA==
+  dependencies:
+    xml-core "^1.1.4"
+    xmldsigjs "^2.5.0"
+
+xml-core@^1.1.4, xml-core@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/xml-core/-/xml-core-1.1.5.tgz#40dde48d16139e9093d32e7dffdb4c6a0305d5ea"
+  integrity sha512-6pZbMgvvtSxXSLmWkUPgFi274oljUHCBKm9GS4ySCXhXCODbJwB8e/UHHzbnnm4X1vVWMfXcip2vrLxN6KSbMw==
+  dependencies:
+    "@xmldom/xmldom" "^0.8.2"
+    tslib "^2.4.0"
+    xpath.js "^1.1.0"
+
+xmldsigjs@^2.5.0, xmldsigjs@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/xmldsigjs/-/xmldsigjs-2.5.1.tgz#4001335c46aa2bcc7866acc0f4700f3b33c03d0a"
+  integrity sha512-Zv23JWVs6zdFCdWhbVNOdXfdpyh9/n8GyAMnk1yNWRvico1GxQSMwyuXEdvidz5REfaTxuwsAnKn4gDus63uKg==
+  dependencies:
+    asn1js "^3.0.5"
+    pkijs "^3.0.10"
+    pvtsutils "^1.3.2"
+    pvutils "^1.1.3"
+    tslib "^2.4.1"
+    xml-core "^1.1.5"
+    xpath "^0.0.32"
+
+xpath.js@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/xpath.js/-/xpath.js-1.1.0.tgz#3816a44ed4bb352091083d002a383dd5104a5ff1"
+  integrity sha512-jg+qkfS4K8E7965sqaUl8mRngXiKb3WZGfONgE18pr03FUQiuSV6G+Ej4tS55B+rIQSFEIw3phdVAQ4pPqNWfQ==
+
+xpath@^0.0.32:
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/xpath/-/xpath-0.0.32.tgz#1b73d3351af736e17ec078d6da4b8175405c48af"
+  integrity sha512-rxMJhSIoiO8vXcWvSifKqhvV96GjiD5wYb8/QHdoRyQvraTpp4IEv944nhGausZZ3u7dhQXteZuZbaqfpB7uYw==
 
 yn@3.1.1:
   version "3.1.1"
