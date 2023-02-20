@@ -1,6 +1,5 @@
 
 import { Crypto } from "@peculiar/webcrypto";
-import * as asn1js from "asn1js";
 import * as pkijs from "pkijs";
 
 async function main() {
