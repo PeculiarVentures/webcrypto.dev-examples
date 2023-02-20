@@ -20,6 +20,7 @@
   "homepage": "https://github.com/PeculiarVentures/lib-examples#readme",
   "dependencies": {
     "2key-ratchet": "^1.0.18",
+    "@peculiar/acme-client": "^1.8.0",
     "@peculiar/asn1-csr": "^2.3.4",
     "@peculiar/asn1-ocsp": "^2.3.4",
     "@peculiar/asn1-schema": "^2.3.3",
@@ -29,6 +30,7 @@
     "@peculiar/x509": "^1.9.3",
     "@webcrypto-local/client": "^1.7.1",
     "asn1js": "^3.0.5",
+    "node-fetch": "^2",
     "node-webcrypto-p11": "^2.6.0",
     "pkcs11js": "^1.3.1",
     "pkijs": "^3.0.13",
