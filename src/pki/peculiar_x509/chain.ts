@@ -68,7 +68,7 @@ async function main() {
     "QCkUJg+Byyd9c6WhRrYywrp/7QbTcxRHe8ur7ThPY4bzoHPq28WkQQX5TAFREijM",
     "uEXJxMcVj2L0qWMQfU3IXMOOc9nSmX1/jMJXg3Q33o6f79rWiyFFIVqUagVPONzV",
     "4GQMMQA=",
-    "-----END CMS-----    ",
+    "-----END CMS-----",
   ].join("\n");
 
   // Create a set of certificates from the PEM encoded CMS
