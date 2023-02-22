@@ -6,6 +6,7 @@
 
 ### Samples
 
+
 | Sample             |	Description                              |
 |--------------------|-------------------------------------------|
 | [Creating a document](create.ts) | Demonstrates how to create a simple PDF document with a page and some text content. |
