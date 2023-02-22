@@ -21,6 +21,7 @@
 | [Reading a password-encrypted document](read_password.ts) | Demonstrates how to read a PDF document that is protected with a password. |
 | [Protect PDF](add_password.ts) | Demonstrates how to read an unprotected PDF document and add password protection to it. |
 | [Unprotect PDF](remove_password.ts) | Demonstrates how to remove password protection from a password-protected PDF document. |
+
 <!-- 
 | [Creating a certificate encrypted document](create_cert.ts) |  |
 | [Reading a certificate encrypted document](read_cert.ts) |  |
