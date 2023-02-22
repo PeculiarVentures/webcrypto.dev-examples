@@ -10,18 +10,18 @@
 
 | Sample             |	Description                              |
 |--------------------|-------------------------------------------|
-| [Creating a document](create.ts) | Demonstrates how to create a simple PDF document with a page and some text content. |
-| [Reading a document](read.ts) | Demonstrates how to read a PDF document and get a list of pages. |
-| [Updating a document](update.ts) | Demonstrates how to read a PDF document and update it by adding some form components. |
-| [Add PDF pages](page_add.ts) | Demonstrates how to read a PDF document and add a new page with an image. |
-| [Remove PDF pages](page_remove.ts) | Demonstrates how to remove pages from a PDF document. |
-| [Rotate PDF pages](page_rotate.ts) | Demonstrates how to rotate pages in a PDF document. |
-| [Signing a document](sign.ts) | Demonstrates how to read a PDF document, add an invisible signature, and sign it using an RSA X509 certificate. |
-| [Verifying a document signature](verify.ts) | Demonstrates how to read a signed PDF document, verify the signature, and output the result of the verification. |
-| [Creating a password-encrypted document](create_password.ts) | Demonstrates how to create a PDF document, protect it with a password, and allow printing. |
-| [Reading a password-encrypted document](read_password.ts) | Demonstrates how to read a PDF document that is protected with a password. |
-| [Protect PDF](add_password.ts) | Demonstrates how to read an unprotected PDF document and add password protection to it. |
-| [Unprotect PDF](remove_password.ts) | Demonstrates how to remove password protection from a password-protected PDF document. |
+| [Creating a document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/create.ts) | Demonstrates how to create a simple PDF document with a page and some text content. |
+| [Reading a document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/read.ts) | Demonstrates how to read a PDF document and get a list of pages. |
+| [Updating a document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/update.ts) | Demonstrates how to read a PDF document and update it by adding some form components. |
+| [Add PDF pages](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/page_add.ts) | Demonstrates how to read a PDF document and add a new page with an image. |
+| [Remove PDF pages](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/page_remove.ts) | Demonstrates how to remove pages from a PDF document. |
+| [Rotate PDF pages](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/page_rotate.ts) | Demonstrates how to rotate pages in a PDF document. |
+| [Signing a document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/sign.ts) | Demonstrates how to read a PDF document, add an invisible signature, and sign it using an RSA X509 certificate. |
+| [Verifying a document signature](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/verify.ts) | Demonstrates how to read a signed PDF document, verify the signature, and output the result of the verification. |
+| [Creating a password-encrypted document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/create_password.ts) | Demonstrates how to create a PDF document, protect it with a password, and allow printing. |
+| [Reading a password-encrypted document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/read_password.ts) | Demonstrates how to read a PDF document that is protected with a password. |
+| [Protect PDF](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/add_password.ts) | Demonstrates how to read an unprotected PDF document and add password protection to it. |
+| [Unprotect PDF](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/remove_password.ts) | Demonstrates how to remove password protection from a password-protected PDF document. |
 
 
 <!-- 
