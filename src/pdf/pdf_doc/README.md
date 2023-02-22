@@ -2,6 +2,8 @@
 
 [@peculiarventures/pdf-doc](https://github.com/PeculiarVentures/pdf/pkgs/npm/pdf-doc) is a Typescript library for creating and working with a PDF files focused on signing, and encryption scenarios.
 
+**This library is not currently open sourced. It is available for commercial licensing contact sales peculiarventures.com for more information.**
+
 ### Samples
 
 | Sample             |	Description                              |
