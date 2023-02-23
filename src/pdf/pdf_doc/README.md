@@ -26,11 +26,11 @@
 | [Unprotect PDF](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/unprotect.ts) | Demonstrates how to read a protected PDF document and remove all restrictions. |
 | [Creating a certificate encrypted document](create_cert.ts) | Demonstrates how to read a PDF document and encrypt it using a public key X509 certificate. |
 | [Reading a certificate encrypted document](read_cert.ts) | Demonstrates how to read an encrypted PDF document using the corresponding private key X509 certificate. |
+| [Add watermark](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/watermark.ts) | Demonstrates how to read a PDF document and add a watermark in the form of an image to all pages. |
 
 <!-- 
 | [Splitting a document](split.ts) |  |
 | [Merging a document](merge.ts) |  |
 | [Enumerating form field value](form_enum.ts) |  |
 | [Setting form field values](form_update.ts) |  |
-| [Add watermark](watermark.ts) |  | 
 -->
