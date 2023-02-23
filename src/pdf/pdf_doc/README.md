@@ -20,8 +20,10 @@
 | [Verifying a document signature](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/verify.ts) | Demonstrates how to read a signed PDF document, verify the signature, and output the result of the verification. |
 | [Creating a password-encrypted document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/create_password.ts) | Demonstrates how to create a PDF document, protect it with a password, and allow printing. |
 | [Reading a password-encrypted document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/read_password.ts) | Demonstrates how to read a PDF document that is protected with a password. |
-| [Protect PDF](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/add_password.ts) | Demonstrates how to read an unprotected PDF document and add password protection to it. |
-| [Unprotect PDF](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/remove_password.ts) | Demonstrates how to remove password protection from a password-protected PDF document. |
+| [Add password](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/add_password.ts) | Demonstrates how to read an unprotected PDF document and add password protection to it. |
+| [Remove password](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/remove_password.ts) | Demonstrates how to remove password protection from a password-protected PDF document. |
+| [Protect PDF](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/protect.ts) | Demonstrates how to read a PDF document and protect it, with permissions enabled for copying content and filling interactive forms. |
+| [Unprotect PDF](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/unprotect.ts) | Demonstrates how to read a protected PDF document and remove all restrictions. |
 
 
 <!-- 

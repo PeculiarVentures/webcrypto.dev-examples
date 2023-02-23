@@ -20,7 +20,6 @@ async function main() {
   // Create an empty PDF document and protect it using password
   const doc = await pdfDoc.PDFDocument.create({
     algorithm: "AES256",
-    userPassword: "12345",
     permission: pdfCore.UserAccessPermissionFlags.printDocument,
   });
 
@@ -46,7 +45,7 @@ async function main() {
     .color(0) // black
     .font(helvetica, sizeNormal)
     .move(paddingLeft, textTopPosition)
-    .show("This document is password-protected. You cannot copy the text, but you can print the document.");
+    .show("This document is protected. You cannot copy the text, but you can print the document.");
 
   // Save the document
   const raw = await doc.save();
