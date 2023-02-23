@@ -24,11 +24,10 @@
 | [Remove password](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/remove_password.ts) | Demonstrates how to remove password protection from a password-protected PDF document. |
 | [Protect PDF](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/protect.ts) | Demonstrates how to read a PDF document and protect it, with permissions enabled for copying content and filling interactive forms. |
 | [Unprotect PDF](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/unprotect.ts) | Demonstrates how to read a protected PDF document and remove all restrictions. |
-
+| [Creating a certificate encrypted document](create_cert.ts) | Demonstrates how to read a PDF document and encrypt it using a public key X509 certificate. |
+| [Reading a certificate encrypted document](read_cert.ts) | Demonstrates how to read an encrypted PDF document using the corresponding private key X509 certificate. |
 
 <!-- 
-| [Creating a certificate encrypted document](create_cert.ts) |  |
-| [Reading a certificate encrypted document](read_cert.ts) |  |
 | [Splitting a document](split.ts) |  |
 | [Merging a document](merge.ts) |  |
 | [Enumerating form field value](form_enum.ts) |  |
