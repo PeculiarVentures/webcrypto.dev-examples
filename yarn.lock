@@ -156,7 +156,7 @@
     asn1js "^3.0.5"
     tslib "^2.4.0"
 
-"@peculiar/asn1-schema@^2.0.44", "@peculiar/asn1-schema@^2.1.0", "@peculiar/asn1-schema@^2.1.6", "@peculiar/asn1-schema@^2.2.0", "@peculiar/asn1-schema@^2.3.0", "@peculiar/asn1-schema@^2.3.3":
+"@peculiar/asn1-schema@^2.0.44", "@peculiar/asn1-schema@^2.1.0", "@peculiar/asn1-schema@^2.1.6", "@peculiar/asn1-schema@^2.3.0", "@peculiar/asn1-schema@^2.3.3":
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/@peculiar/asn1-schema/-/asn1-schema-2.3.3.tgz#21418e1f3819e0b353ceff0c2dad8ccb61acd777"
   integrity sha512-6GptMYDMyWBHTUKndHaDsRZUO/XMSgIns2krxcm2L7SEExRHwawFvSwNBhqNPR9HJwv3MruAiF1bhN0we6j6GQ==
@@ -197,7 +197,7 @@
     pvtsutils "^1.3.2"
     tslib "^2.4.0"
 
-"@peculiar/asn1-x509@^2.0.44", "@peculiar/asn1-x509@^2.1.4", "@peculiar/asn1-x509@^2.2.0", "@peculiar/asn1-x509@^2.3.4":
+"@peculiar/asn1-x509@^2.0.44", "@peculiar/asn1-x509@^2.1.4", "@peculiar/asn1-x509@^2.3.4":
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/@peculiar/asn1-x509/-/asn1-x509-2.3.4.tgz#416bfd9ccdba3c512354d9d43d67969d6084f2fa"
   integrity sha512-NhA6U76kiGKTQG2WQyGfRS/piYHt7HxUsGb0IvQaiJheuucKb2CYu0/tOk1dayZcvFf6Pnf9HjFGQ/5ud/ndRQ==
@@ -233,7 +233,7 @@
     tslib "^2.4.1"
     webcrypto-core "^1.7.4"
 
-"@peculiar/x509@^1.8.1", "@peculiar/x509@^1.9.3":
+"@peculiar/x509@^1.9.3":
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/@peculiar/x509/-/x509-1.9.3.tgz#a61e3dcc54ec568f6ba9325fb751a5fb01db15a6"
   integrity sha512-rv1TrPi85jOtBJ7Xmqx08p3QPIE2avd5CWgtiwOIAbhV3hoUCLlGIUtXn9CuShfFBCjGy8EnZRQ6YbNFaDL8vw==
@@ -250,18 +250,18 @@
     tslib "^2.4.1"
     tsyringe "^4.7.0"
 
-"@peculiarventures/pdf-copy@^1.8.5":
-  version "1.8.5"
-  resolved "https://npm.pkg.github.com/download/@peculiarventures/pdf-copy/1.8.5/2ec11d8e3f3811083fe80fe62430ec4667658209#2ec11d8e3f3811083fe80fe62430ec4667658209"
-  integrity sha512-TXs2HkSkOCyy2I/+UxMAb0xr2cNUixTdbH2VrSNdFOhlwP0oChk6BtXp8XXcps7Rny6qJvexgzMndNS7L4oxNQ==
+"@peculiarventures/pdf-copy@^1.9.0":
+  version "1.9.0"
+  resolved "https://npm.pkg.github.com/download/@peculiarventures/pdf-copy/1.9.0/14c895034819ca5be4811a3d9c63e91f093a00dd#14c895034819ca5be4811a3d9c63e91f093a00dd"
+  integrity sha512-evH5ccthuzU6becb1pLXo39qBWB76lArONGlrhH882bdRvHDKtU2RVDhPwB2AGbK8uB3zkSI0bYzpR3e5ApWKg==
   dependencies:
-    "@peculiarventures/pdf-core" "^1.8.5"
+    "@peculiarventures/pdf-core" "^1.9.0"
     tslib "^2.5.0"
 
-"@peculiarventures/pdf-core@^1.8.5":
-  version "1.8.5"
-  resolved "https://npm.pkg.github.com/download/@PeculiarVentures/pdf-core/1.8.5/6a084206c5c79abdee220e7f4e9cd0e3deba77df#6a084206c5c79abdee220e7f4e9cd0e3deba77df"
-  integrity sha512-U0UJuLE7o9V6J0su3yxMLzAKHAiWNEkAiiVsr9EBz21PzItV3hU1RIIcrhvqllwWjZCuZjTuCN0QEyGYKaXfOA==
+"@peculiarventures/pdf-core@^1.9.0":
+  version "1.9.0"
+  resolved "https://npm.pkg.github.com/download/@PeculiarVentures/pdf-core/1.9.0/7f0c85e809804a6dfe6609c245d72eb4724800d1#7f0c85e809804a6dfe6609c245d72eb4724800d1"
+  integrity sha512-2ZzeArZxf0ZMq8xfJ/aoxZ9hGXdlLS6jLj2mIhYxmWxlp6S4ZzVODIM9ynbiBBRG/D1MzNeszVQvX0QLmfrgvw==
   dependencies:
     "@peculiar/x509" "^1.9.3"
     "@types/events" "^3.0.0"
@@ -274,18 +274,18 @@
     pvutils "^1.1.3"
     tslib "^2.5.0"
 
-"@peculiarventures/pdf-doc@^1.8.5":
-  version "1.8.5"
-  resolved "https://npm.pkg.github.com/download/@PeculiarVentures/pdf-doc/1.8.5/eb6bde7dd3b3c794484b652f6532aeb8b591bd5f#eb6bde7dd3b3c794484b652f6532aeb8b591bd5f"
-  integrity sha512-ucQmE8YJqfKrA/D+FWmNGaZzq+4ZbXoqTV7tbjWh49KhLlUWsvlVsQ5kzt/T7/GjmByvCKvNj4Aa33icTFnLSw==
+"@peculiarventures/pdf-doc@^1.9.0":
+  version "1.9.0"
+  resolved "https://npm.pkg.github.com/download/@PeculiarVentures/pdf-doc/1.9.0/eb04a038c4e66d5ba9a46ad6a82f78967dfa1e55#eb04a038c4e66d5ba9a46ad6a82f78967dfa1e55"
+  integrity sha512-+ma5aIgNznhnIjYm9N5XxgAuRJ9PoULxEnIitFWMpMNfGl/czqHl9z7PUJz+45DxbXy7tLQqdP38cBA7vAK8Vg==
   dependencies:
     "@peculiar/asn1-ocsp" "^2.1.4"
     "@peculiar/asn1-schema" "^2.1.0"
     "@peculiar/asn1-tsp" "^2.1.4"
     "@peculiar/asn1-x509" "^2.1.4"
     "@peculiar/x509" "^1.9.3"
-    "@peculiarventures/pdf-copy" "^1.8.5"
-    "@peculiarventures/pdf-core" "^1.8.5"
+    "@peculiarventures/pdf-copy" "^1.9.0"
+    "@peculiarventures/pdf-core" "^1.9.0"
     "@peculiarventures/pdf-font" "^1.7.0"
     asn1js "^3.0.5"
     bytestreamjs "2.0.1"
@@ -691,27 +691,27 @@ nan@^2.15.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.17.0.tgz#c0150a2368a182f033e9aa5195ec76ea41a199cb"
   integrity sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==
 
-node-fetch@^2, node-fetch@^2.6.1:
+node-fetch@^2.6.1:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.9.tgz#7c7f744b5cc6eb5fd404e0c7a9fec630a55657e6"
   integrity sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==
   dependencies:
     whatwg-url "^5.0.0"
 
-node-webcrypto-p11@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-webcrypto-p11/-/node-webcrypto-p11-2.6.0.tgz#8ad081c22de4b9f043c129346dcede2e24bc03e6"
-  integrity sha512-HcL1FcHQOQODst9/6SS+BXmCLSNDrIaAHIjoGPDcMpRoP/NftEAmcaPOVsq9eO5GT+TCwXjhdbNjK66Osq1Uqg==
+node-webcrypto-p11@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-webcrypto-p11/-/node-webcrypto-p11-2.6.1.tgz#1a9ce089a13a30efeb84e3d820ed23c46a5c0752"
+  integrity sha512-tUWX7oqLUhta9U8rz8G++MGN3XlomEaBPkfg+Vf2gkOGSJIFYeoHq2TB8+0LiHIopq9V3PS20xMfryas/xcx1w==
   dependencies:
-    "@peculiar/asn1-schema" "^2.2.0"
-    "@peculiar/asn1-x509" "^2.2.0"
+    "@peculiar/asn1-schema" "^2.3.3"
+    "@peculiar/asn1-x509" "^2.3.4"
     "@peculiar/json-schema" "^1.1.12"
-    "@peculiar/x509" "^1.8.1"
+    "@peculiar/x509" "^1.9.3"
     graphene-pk11 "^2.3.2"
-    pkcs11js "^1.3.0"
+    pkcs11js "^1.3.1"
     pvtsutils "^1.3.2"
-    tslib "^2.4.0"
-    webcrypto-core "^1.7.5"
+    tslib "^2.5.0"
+    webcrypto-core "^1.7.6"
 
 pako@^2.0.3, pako@^2.0.4:
   version "2.1.0"
@@ -725,21 +725,10 @@ pkcs11js@^1.3.0, pkcs11js@^1.3.1:
   dependencies:
     nan "^2.15.0"
 
-pkijs@^3.0.10, pkijs@^3.0.4:
+pkijs@^3.0.10, pkijs@^3.0.13, pkijs@^3.0.14, pkijs@^3.0.4:
   version "3.0.14"
   resolved "https://registry.yarnpkg.com/pkijs/-/pkijs-3.0.14.tgz#92571f61122fd1e0ccdbc328b6efab9467b0bc30"
   integrity sha512-Fi9++44BaOY0VcOEJql27D/HzHIeMU9R48XclfL98Cp8Wh/gGfPbuS1RUwReHQHRIUfzW32eoNO1izxoBMZi6w==
-  dependencies:
-    asn1js "^3.0.5"
-    bytestreamjs "^2.0.0"
-    pvtsutils "^1.3.2"
-    pvutils "^1.1.3"
-    tslib "^2.4.0"
-
-pkijs@^3.0.13:
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/pkijs/-/pkijs-3.0.13.tgz#d33c7d9d6f1dc20d8f588c357d725d57e1245638"
-  integrity sha512-a4uShsMDMZf0UpiNeedpARIN2TChjFn4xze7HE+Dm3lsX+o2MHcSm8Lf2Tt+f1le8FHbBevdWlcLO5boSW/9NQ==
   dependencies:
     asn1js "^3.0.5"
     bytestreamjs "^2.0.0"
@@ -844,10 +833,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-webcrypto-core@^1.7.4, webcrypto-core@^1.7.5:
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/webcrypto-core/-/webcrypto-core-1.7.5.tgz#c02104c953ca7107557f9c165d194c6316587ca4"
-  integrity sha512-gaExY2/3EHQlRNNNVSrbG2Cg94Rutl7fAaKILS1w8ZDhGxdFOaw6EbCfHIxPy9vt/xwp5o0VQAx9aySPF6hU1A==
+webcrypto-core@^1.7.4, webcrypto-core@^1.7.5, webcrypto-core@^1.7.6:
+  version "1.7.6"
+  resolved "https://registry.yarnpkg.com/webcrypto-core/-/webcrypto-core-1.7.6.tgz#e32c4a12a13de4251f8f9ef336a6cba7cdec9b55"
+  integrity sha512-TBPiewB4Buw+HI3EQW+Bexm19/W4cP/qZG/02QJCXN+iN+T5sl074vZ3rJcle/ZtDBQSgjkbsQO/1eFcxnSBUA==
   dependencies:
     "@peculiar/asn1-schema" "^2.1.6"
     "@peculiar/json-schema" "^1.1.12"
