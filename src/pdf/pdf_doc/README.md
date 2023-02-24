@@ -27,10 +27,10 @@
 | [Creating a certificate encrypted document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/create_cert.ts) | Demonstrates how to read a PDF document and encrypt it using a public key X509 certificate. |
 | [Reading a certificate encrypted document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/read_cert.ts) | Demonstrates how to read an encrypted PDF document using the corresponding private key X509 certificate. |
 | [Add watermark](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/watermark.ts) | Demonstrates how to read a PDF document and add a watermark in the form of an image to all pages. |
+| [Splitting a document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/page_split.ts) | Demonstrates how to split a PDF document into multiple files for specified page ranges. |
+| [Merging a document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/page_append.ts) | Demonstrates how to merge multiple PDF documents into a single file with the ability to specify specific pages to include. |
 
 <!-- 
-| [Splitting a document](split.ts) |  |
-| [Merging a document](merge.ts) |  |
 | [Enumerating form field value](form_enum.ts) |  |
 | [Setting form field values](form_update.ts) |  |
 -->
