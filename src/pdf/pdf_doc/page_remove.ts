@@ -11,7 +11,7 @@ async function main() {
 
   const raw = fs.readFileSync(path.resolve(__dirname, "files", "page_remove.pdf"));
 
-  // Create an empty PDF document
+  // Read the PDF document
   const doc = await pdfDoc.PDFDocument.load(raw);
 
   doc.pages.remove(3);
