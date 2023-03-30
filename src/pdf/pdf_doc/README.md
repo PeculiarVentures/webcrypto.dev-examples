@@ -31,8 +31,3 @@
 | [Merging a document](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/page_append.ts) | Demonstrates how to merge multiple PDF documents into a single file with the ability to specify specific pages to include. |
 | [Attach file](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/embedded_file_create.ts) | Demonstrates how to create a new PDF document and add a file to it. |
 | [Extract embedded file](https://github.com/PeculiarVentures/webcrypto.dev-examples/blob/main/src/pdf/pdf_doc/embedded_file_extract.ts) | Demonstrates how to read a PDF document, get a list of embedded files, and extract the content of a specified file. |
-
-<!-- 
-| [Enumerating form field value](form_enum.ts) |  |
-| [Setting form field values](form_update.ts) |  |
--->

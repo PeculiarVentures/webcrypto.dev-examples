@@ -51,7 +51,8 @@ Our PDF libraries provide a convenient and easy-to-use solution for creating, ma
 
 | Library             |	Description                              |
 |---------------------|------------------------------------------|
-| [@peculizarventures/pdf](src/pdf/pdf_doc/README.md) | A Typescript library for creating and working with a PDF files focused on signing, and encryption scenarios. |
+| [@peculizarventures/pdf-doc](src/pdf/pdf_doc/README.md) | A Typescript library for creating and working with a PDF files focused on signing, and encryption scenarios. |
+| [@peculizarventures/pdf-form-json](src/pdf/pdf_form_json/README.md) | A PDF module enabling working with form elements through JSON. |
 
 ### End-To-End Encryption Protocols
 
