@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
-import * as pdfDoc from "@peculiarventures/pdf-doc";
+import * as pdfDoc from "@peculiar/pdf-doc";
 import { Crypto } from "@peculiar/webcrypto";
 import * as pkijs from "pkijs";
 
