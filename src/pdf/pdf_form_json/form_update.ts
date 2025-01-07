@@ -1,8 +1,8 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
-import * as pdfCore from "@peculiarventures/pdf-core";
-import * as pdfDoc from "@peculiarventures/pdf-doc";
-import * as pdfFormJson from "@peculiarventures/pdf-form-json";
+import * as pdfCore from "@peculiar/pdf-core";
+import * as pdfDoc from "@peculiar/pdf-doc";
+import * as pdfFormJson from "@peculiar/pdf-form-json";
 import { Crypto } from "@peculiar/webcrypto";
 import * as pkijs from "pkijs";
 
